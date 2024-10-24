@@ -13,6 +13,12 @@ app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
 books = []
 
 
+# redirects to the github repository of this project
+@app.route("/github")
+def github():
+    return redirect("https://github.com/FreeMan-join/myflaskapp")
+
+
 def allowed_file(filename):
     return "." in filename and filename.rsplit(".", 1)[1].lower() in ALLOWED_EXTENSIONS
 
