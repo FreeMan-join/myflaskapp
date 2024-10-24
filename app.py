@@ -20,7 +20,8 @@ def github():
 
 
 # new changes for better performance
-print(8 * "*").print("Hello").print(8 * "*")
+# ************************************************
+# ************************************************
 
 
 @app.route("/new")
