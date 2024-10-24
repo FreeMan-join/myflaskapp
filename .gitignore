@@ -1,8 +1,0 @@
-__pycache__/
-*.pyc
-instance/
-.env
-.vscode/
-.idea/
-.DS_Store
-static/uploads/
