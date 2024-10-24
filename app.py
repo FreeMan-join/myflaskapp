@@ -19,6 +19,8 @@ def github():
     return redirect("https://github.com/FreeMan-join/myflaskapp")
 
 
+# new changes for better performance
+@app.route("/new")
 def allowed_file(filename):
     return "." in filename and filename.rsplit(".", 1)[1].lower() in ALLOWED_EXTENSIONS
 
